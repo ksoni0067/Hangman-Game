@@ -8,7 +8,7 @@ print("Hello " + name + "! Best of Luck👍!")
 time.sleep(2)
 print("The game is about to start!\n Let's play Hangman!.....")
 time.sleep(3)
-print("guess form (january,border,image,film,promise,kids,lungs,doll,rhyme,damage,plants,december)")
+print("guess form (january,border,image,film,promise,kids,lungs,doll,rhyme,damage,plants,december,favour)")
 
 def Main():
     global count
@@ -18,7 +18,7 @@ def Main():
     global length
     global play_game
     words_to_guess = ["january","border","image","film","promise","kids","lungs","doll","rhyme","damage"
-                   ,"plants","december"]
+                   ,"plants","december","favour"]
     word = random.choice(words_to_guess)
     length = len(word)
     count = 0
